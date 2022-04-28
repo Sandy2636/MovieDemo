@@ -1,0 +1,99 @@
+.movie{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    height: fit-content;
+    background:linear-gradient(to right ,#2b2d42,#8d99ae );
+    .imageContainer{
+        min-width: 270px;
+        margin: auto;
+        width: 50vw;
+        .movieImageBG{
+            margin: 15%;
+            object-fit: cover;
+            width: 25vw;
+            min-width: 200px;
+
+        }
+    }
+    .movieDetails{
+        flex: 1;
+        min-width: 270px;
+        h1{
+            margin-top: 15%;
+            font-size: 50px;
+            text-align: center;
+            padding: 25px;
+            color:#d90429 ;
+
+        }
+        .summaryHolder{
+            width: 85%;
+            text-align: center;
+            margin: auto;
+            color: #edf2f4;
+        }
+
+        .movieStats{
+            width: 75%;
+            margin: 5% auto;
+            color: #edf2f4;
+            
+        }
+        button{
+            background-color: #d90429;
+            color: #edf2f4;
+            border: none;
+            border-radius: 15px;
+            width: 25%;
+            height: 5%;
+            font-size: 16px;
+            margin-left: 65%;
+            cursor: pointer;
+        }
+    }
+}
+.modalForm{
+    background-color:#2b2d42 ;
+    min-width: 270px;
+    width: 25vw;
+    border-radius: 5px;
+    min-height: fit-content;
+    height: 65vh;
+    h1{
+        color: #d90429;
+        text-align: center;
+        padding: 10%;
+        font-size: 35px;
+    } 
+    form{
+        width: 80%;
+        margin: auto;
+        label{
+            color: #edf2f4;
+            font-size: 20px;
+        }
+        input{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: #ef233c 1px solid;
+            color: #ef233c;
+            width: 90%;
+            height: 20px;
+            margin: 5% 0 ;
+        }
+        .bookBtn{
+            color: #edf2f4;
+            background-color: #d90429;
+            width: 50%;
+            height: 25px;
+            border: none;
+            border-radius: 5px;
+            margin: 10% 25%;
+            cursor: pointer;
+            
+
+        }
+    }  
+}
